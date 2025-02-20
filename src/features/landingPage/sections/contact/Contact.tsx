@@ -7,7 +7,7 @@ const Contact = () => {
         {/* Get in Touch Section */}
         <h2 className="text-4xl font-bold mb-4 pt-12">Get in Touch</h2>
         <p className="text-lg text-gray-600 mb-8 max-w-6xl">
-          Let's discuss your brand and business goals and objectives. I'd love to hear from you! You have a question, project idea, or just want to say hello, feel free to drop me a message.
+          Let&apos;s discuss your brand and business goals and objectives. I&apos;d love to hear from you! You have a question, project idea, or just want to say hello, feel free to drop me a message.
         </p>
         
         <a 
