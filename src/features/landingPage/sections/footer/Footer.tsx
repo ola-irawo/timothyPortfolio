@@ -10,7 +10,7 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4">
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://linkedin.com/in/timothy-aremu-16369a202/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors duration-300"
@@ -18,7 +18,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="https://twitter.com/yourhandle"
+              href="https://x.com/ola_irawo"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors duration-300"
@@ -26,7 +26,7 @@ const Footer = () => {
               Twitter
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/ola-irawo"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors duration-300"
