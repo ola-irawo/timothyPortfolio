@@ -22,7 +22,7 @@ const Projects = () => {
         {
           name: "Home Synk",
           description: "Your NO 1. Property Management Platform",
-          image: "/ventmoir.png",
+          image: "/homesynk.jpg",
           link: "https://www.homesynk.com",
           technologies: ["Typescript", "Context api", "Next.js", "React", "Css"],
           overview: "A detailed overview of Project Three, including its objectives, challenges faced, and outcomes achieved.",
