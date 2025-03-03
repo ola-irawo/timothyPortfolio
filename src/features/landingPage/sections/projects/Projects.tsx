@@ -6,7 +6,7 @@ const Projects = () => {
         {
           name: "Ventmoir",
           description: "A mental health social platform.",
-          image: "https://img.freepik.com/free-vector/gaslighting-abstract-concept-vector-illustration-psychological-manipulation-method-mental-destabilization-cognitive-dissonance-creation-changing-beliefs-contradiction-abstract-metaphor_335657-4220.jpg?t=st=1740060923~exp=1740064523~hmac=6b9e95c44eee6c55f9f995abf4a80673e96bd70fde8128174c08fc24cbba42b9&w=740",
+          image: "/ventmoir.png",
           link: "https://www.ventmoir.com",
           technologies: ["React", "Next.js", "Redux", "CSS", "Node.js"],
           overview: "A detailed overview of Project One, including its objectives, challenges faced, and outcomes achieved.",
@@ -38,7 +38,7 @@ const Projects = () => {
         {
           name: "Aremudami_luxury",
           description: "A real estatement.",
-          image: "/ve.jpg",
+          image: "/realEstate.jpg",
           link: "https://realestate-qx5l.onrender.com/",
           technologies: ["Firebase", "Redux", "Typesctipt", "Next.js", "React"],
           overview: "A detailed overview of Project Five, including its objectives, challenges faced, and outcomes achieved.",
@@ -63,8 +63,8 @@ const Projects = () => {
             <Image
               src={project.image}
               alt={project.name}
-              width={100}
-              height={100}
+              width={300}
+              height={300}
               className="w-full h-48 object-cover object-center rounded-md mb-4"
             />
             <h3 className="text-2xl font-semibold mb-2">{project.name}</h3>
