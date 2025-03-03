@@ -40,7 +40,7 @@ const Projects = () => {
           description: "A real estatement.",
           image: "/realEstate.jpg",
           link: "https://realestate-qx5l.onrender.com/",
-          technologies: ["Firebase", "Redux", "Typesctipt", "Next.js", "React"],
+          technologies: ["Firebase", "Redux", "Typescript", "Next.js", "React"],
           overview: "A detailed overview of Project Five, including its objectives, challenges faced, and outcomes achieved.",
         },
         {
