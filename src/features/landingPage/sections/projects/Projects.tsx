@@ -13,7 +13,7 @@ const Projects = () => {
         },
         {
           name: "Flamepact",
-          description: "A brief description of Project Two.",
+          description: "Oil and gas platform",
           image: "/flamepact.jpg",
           link: "https://www.flamepact.com.ng",
           technologies: ["Javascript", "React", "Context api", "Next.js", "Css"],
@@ -21,7 +21,7 @@ const Projects = () => {
         },
         {
           name: "Home Synk",
-          description: "A brief description of Project Three.",
+          description: "Your NO 1. Property Management Platform",
           image: "/ventmoir.png",
           link: "https://www.homesynk.com",
           technologies: ["Typescript", "Context api", "Next.js", "React", "Css"],
@@ -29,7 +29,7 @@ const Projects = () => {
         },
         {
           name: "Ventmoir Blog",
-          description: "A brief description of Project Four.",
+          description: "A mental health blog",
           image: "/vent.jpeg",
           link: "https://blog.ventmoir.com",
           technologies: ["Javascript", "Redux" ,"Next.js", "Tailwind CSS", "React", "Firebase"],
@@ -37,7 +37,7 @@ const Projects = () => {
         },
         {
           name: "Aremudami_luxury",
-          description: "A real estatement.",
+          description: "A real estate lisitng platform.",
           image: "/realEstate.jpg",
           link: "https://realestate-qx5l.onrender.com/",
           technologies: ["Firebase", "Redux", "Typescript", "Next.js", "React"],
