@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Contact = () => {
+  //update later
   return (
     <section id="contact" className="py-16 p-8 bg-[#1111]">
       <div className="container mx-auto border-t-2 border-t-black">
