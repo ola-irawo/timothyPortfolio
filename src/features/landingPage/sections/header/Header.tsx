@@ -5,7 +5,7 @@ const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="text-white h-auto min-h-24">
+    <header className="text-white h-auto min-h-24 relative z-10">
       <div className="bg-black fixed top-0 right-0 left-0 z-10 mx-auto px-4 py-8 flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
