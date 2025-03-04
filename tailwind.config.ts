@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-const plugin = require('tailwindcss/plugin');
+import plugin from "tailwindcss/plugin";
 
 export default {
   content: [
@@ -32,29 +32,33 @@ export default {
     },
   },
   plugins: [
-    plugin(function ({ addBase, theme, addUtilities }) {
+    plugin(({ addBase, theme, addUtilities, addComponents }) => {
       addBase({
-        body: {
-          backgroundColor: theme("colors.background"),
-          color: theme("colors.foreground"),
-        },
-        // h1: {
-        //   fontSize: theme("fontSize.4xl"),
-        //   fontWeight: theme("fontWeight.bold"),
-        // },
-        html : {
+        "html, body": {
           scrollBehavior: "smooth",
-          padding: 0,
-          margin: 0,
+          padding: "0",
+          margin: "0",
         },
       });
-      
+
       addUtilities({
-        ".animate-fadeIn": {
+        ".text-softblue": {
+          color: theme("colors.softblue"),
+        },
+        ".animate-fade": {
           animation: "fadeIn 1s ease-in forwards",
         },
         ".animate-slideIn": {
           animation: "slideIn 1s ease-out forwards",
+        },
+      });
+
+      addComponents({
+        ".container": {
+          width: "100%",
+          maxWidth: "1200px",
+          margin: "0 auto",
+          padding: "0 20px",
         },
       });
     }),
