@@ -12,7 +12,7 @@ const Hero = () => {
           Hi, they call me the 
           <br className="hidden lg:inline" /> 
           <span className="text-6xl font-bold text-softblue">
-            Frontend Alchemist
+             Frontend Alchemist
           </span>.
         </h1>
 
